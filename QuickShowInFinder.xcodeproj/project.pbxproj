@@ -1,0 +1,284 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		64F44B9B1C293ED500395923 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F44B9A1C293ED500395923 /* AppKit.framework */; };
+		64F44B9D1C293ED500395923 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 64F44B9C1C293ED500395923 /* Foundation.framework */; };
+		64F44BA11C293ED500395923 /* QuickShowInFinder.xcscheme in Resources */ = {isa = PBXBuildFile; fileRef = 64F44BA01C293ED500395923 /* QuickShowInFinder.xcscheme */; };
+		64F44BA41C293ED500395923 /* QuickShowInFinder.m in Sources */ = {isa = PBXBuildFile; fileRef = 64F44BA31C293ED500395923 /* QuickShowInFinder.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		64F44B971C293ED500395923 /* QuickShowInFinder.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QuickShowInFinder.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		64F44B9A1C293ED500395923 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
+		64F44B9C1C293ED500395923 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
+		64F44BA01C293ED500395923 /* QuickShowInFinder.xcscheme */ = {isa = PBXFileReference; lastKnownFileType = text.xml; name = QuickShowInFinder.xcscheme; path = QuickShowInFinder.xcodeproj/xcshareddata/xcschemes/QuickShowInFinder.xcscheme; sourceTree = SOURCE_ROOT; };
+		64F44BA21C293ED500395923 /* QuickShowInFinder.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QuickShowInFinder.h; sourceTree = "<group>"; };
+		64F44BA31C293ED500395923 /* QuickShowInFinder.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QuickShowInFinder.m; sourceTree = "<group>"; };
+		64F44BA51C293ED500395923 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		64F44B951C293ED500395923 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F44B9B1C293ED500395923 /* AppKit.framework in Frameworks */,
+				64F44B9D1C293ED500395923 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		64F44B8E1C293ED500395923 = {
+			isa = PBXGroup;
+			children = (
+				64F44B9E1C293ED500395923 /* QuickShowInFinder */,
+				64F44B991C293ED500395923 /* Frameworks */,
+				64F44B981C293ED500395923 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		64F44B981C293ED500395923 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				64F44B971C293ED500395923 /* QuickShowInFinder.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		64F44B991C293ED500395923 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				64F44B9A1C293ED500395923 /* AppKit.framework */,
+				64F44B9C1C293ED500395923 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		64F44B9E1C293ED500395923 /* QuickShowInFinder */ = {
+			isa = PBXGroup;
+			children = (
+				64F44BA21C293ED500395923 /* QuickShowInFinder.h */,
+				64F44BA31C293ED500395923 /* QuickShowInFinder.m */,
+				64F44BA51C293ED500395923 /* Info.plist */,
+				64F44B9F1C293ED500395923 /* Supporting Files */,
+			);
+			path = QuickShowInFinder;
+			sourceTree = "<group>";
+		};
+		64F44B9F1C293ED500395923 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				64F44BA01C293ED500395923 /* QuickShowInFinder.xcscheme */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		64F44B961C293ED500395923 /* QuickShowInFinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 64F44BA81C293ED500395923 /* Build configuration list for PBXNativeTarget "QuickShowInFinder" */;
+			buildPhases = (
+				64F44B931C293ED500395923 /* Sources */,
+				64F44B941C293ED500395923 /* Resources */,
+				64F44B951C293ED500395923 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QuickShowInFinder;
+			productName = QuickShowInFinder;
+			productReference = 64F44B971C293ED500395923 /* QuickShowInFinder.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		64F44B8F1C293ED500395923 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = qinzhiwei;
+				TargetAttributes = {
+					64F44B961C293ED500395923 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 64F44B921C293ED500395923 /* Build configuration list for PBXProject "QuickShowInFinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 64F44B8E1C293ED500395923;
+			productRefGroup = 64F44B981C293ED500395923 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				64F44B961C293ED500395923 /* QuickShowInFinder */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		64F44B941C293ED500395923 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F44BA11C293ED500395923 /* QuickShowInFinder.xcscheme in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		64F44B931C293ED500395923 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				64F44BA41C293ED500395923 /* QuickShowInFinder.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		64F44BA61C293ED500395923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+			};
+			name = Debug;
+		};
+		64F44BA71C293ED500395923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+			};
+			name = Release;
+		};
+		64F44BA91C293ED500395923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = QuickShowInFinder/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinzhiwei.QuickShowInFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		64F44BAA1C293ED500395923 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				INFOPLIST_FILE = QuickShowInFinder/Info.plist;
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				PRODUCT_BUNDLE_IDENTIFIER = com.qinzhiwei.QuickShowInFinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		64F44B921C293ED500395923 /* Build configuration list for PBXProject "QuickShowInFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F44BA61C293ED500395923 /* Debug */,
+				64F44BA71C293ED500395923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		64F44BA81C293ED500395923 /* Build configuration list for PBXNativeTarget "QuickShowInFinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				64F44BA91C293ED500395923 /* Debug */,
+				64F44BAA1C293ED500395923 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 64F44B8F1C293ED500395923 /* Project object */;
+}
